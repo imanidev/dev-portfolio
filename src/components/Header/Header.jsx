@@ -1,13 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Header = ({ title, subtitle }) => {
+const Header = () => {
   return (
-    <header className="site-header">
-      <h1>{title}</h1>
-
-      {subtitle && <h2>{subtitle}</h2>}
-      <nav>
+    <div className="header">
+      <nav className="header-nav">
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -23,7 +20,8 @@ const Header = ({ title, subtitle }) => {
           </li>
         </ul>
       </nav>
-    </header>
+    
+    </div>
   );
 };
 
