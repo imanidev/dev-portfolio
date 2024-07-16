@@ -1,0 +1,11 @@
+* {
+    background-color: var(--primary-color);
+
+}
+
+h1,
+h2,
+.header-nav {
+    display: flex;
+    justify-content: center;
+}
