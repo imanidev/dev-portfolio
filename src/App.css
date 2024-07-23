@@ -3,7 +3,11 @@
     /* --primary-color: #ffeedb; */
     --secondary-color: #;
     --font-color: #0c0f0a;
-    --font-family: 'Roboto', sans-serif;
-
+    /* --font-family: 'W95FA', */
+    --font-family: 'Jura',
+        'monospace';
 }
 
+* {
+    font-family: var(--font-family);
+}

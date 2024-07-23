@@ -1,11 +1,10 @@
 * {
     background-color: var(--primary-color);
-
+    
 }
 
 h1,
-h2,
-.header-nav {
+h2 {
     display: flex;
     justify-content: center;
 }
